@@ -1,4 +1,4 @@
-const ramiro = [
+const english = [
   "cigar",
   "rebut",
   "sissy",
@@ -14853,4 +14853,4 @@ const spanish = [
   ]
   
 
-module.exports = { portuguese, spanish };
+module.exports = { english, portuguese, spanish };
