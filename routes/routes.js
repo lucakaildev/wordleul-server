@@ -1,13 +1,12 @@
 const router = require("express").Router()
-const { portuguese, spanish} = require("../words")
+const { english, portuguese, spanish} = require("../words")
 
-const english = undefined
 router.get("/words/english", async (req, res) => {
     try {
-        res.send(english.id);
+        res.send(english);
     }
     catch(err) {
-        res.send("tonto");
+        res.send(err);
     }
 })
 
